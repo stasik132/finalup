@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+@font-face {
+  font-family: 'bebas';
+  src: url(../fonts/Bebas.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'sans';
+  src: url(../fonts/OpenSans-Regular.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.hero{
+  background-image: url(../img/bg\ image\ 1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.hero_content{
+  font-family:bebas ;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hero_content h1{
+  font-weight: 300;
+  font-size: 100px;
+  color: white;
+}
+.hero_content h2{
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 10px;
+  color: white;
+}
+.hero_content a{
+  font-size: 17px;
+  padding:10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top:30px;
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  color: black;
+  font-weight: 100;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.logo_platform{
+  margin-top: 30px;
+}
+.xbox{
+  padding-right: 20px;
+}
+.nav_links{
+  font-family: 'sans';
+  margin: 30px;
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  margin-top: 10px;
+}
+.nav_links a{
+  text-decoration: none;
+  color: white;
+}
+.idol{
+  background-image: url(../img/bg\ image\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.idol_content{
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  flex-direction: column;
+}
